@@ -1,0 +1,300 @@
+```css
+/* ===========================
+   GOOGLE FONT
+=========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+.sidebar{
+    position:fixed;
+    left:0;
+    top:0;
+    width:250px;
+    height:100vh;
+    background:#0d6efd;
+    color:#fff;
+    padding:25px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:40px;
+    font-weight:700;
+}
+
+.logo i{
+    margin-right:8px;
+}
+
+.menu{
+    list-style:none;
+    padding:0;
+}
+
+.menu li{
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.menu li:hover{
+    background:rgba(255,255,255,.15);
+}
+
+.menu li.active{
+    background:#fff;
+    color:#0d6efd;
+    font-weight:600;
+}
+
+/* ===========================
+   MAIN
+=========================== */
+
+.main{
+    margin-left:270px;
+    padding:30px;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.header h2{
+    font-weight:700;
+}
+
+.header p{
+    color:#777;
+}
+
+.header-buttons{
+    display:flex;
+    gap:10px;
+}
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+/* ===========================
+   FILTERS
+=========================== */
+
+.form-control,
+.form-select{
+
+    border-radius:10px;
+    height:48px;
+
+}
+
+.btn{
+
+    border-radius:10px;
+    height:48px;
+
+}
+
+/* ===========================
+   TABLE
+=========================== */
+
+.table{
+
+    margin-bottom:0;
+
+}
+
+.table thead th{
+
+    text-align:center;
+    vertical-align:middle;
+    white-space:nowrap;
+
+}
+
+.table tbody td{
+
+    vertical-align:middle;
+    text-align:center;
+    white-space:nowrap;
+
+}
+
+.table-hover tbody tr:hover{
+
+    background:#eef5ff;
+
+}
+
+/* ===========================
+   TABLE RESPONSIVE
+=========================== */
+
+.table-responsive{
+
+    border-radius:15px;
+    overflow:auto;
+
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    height:10px;
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#0d6efd;
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#ddd;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    margin-top:20px;
+    text-align:right;
+    color:#666;
+    font-size:14px;
+
+}
+
+/* ===========================
+   BUTTON EFFECT
+=========================== */
+
+.btn{
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ===========================
+   SEARCH
+=========================== */
+
+#searchInput{
+
+    box-shadow:none;
+
+}
+
+#searchInput:focus{
+
+    border-color:#0d6efd;
+    box-shadow:0 0 8px rgba(13,110,253,.25);
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.sidebar{
+
+    width:100%;
+    height:auto;
+    position:relative;
+
+}
+
+.main{
+
+    margin-left:0;
+
+}
+
+.header{
+
+    flex-direction:column;
+    align-items:flex-start;
+
+}
+
+.header-buttons{
+
+    width:100%;
+    flex-wrap:wrap;
+
+}
+
+.header-buttons .btn{
+
+    flex:1;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.table{
+
+    font-size:13px;
+
+}
+
+.logo{
+
+    text-align:left;
+
+}
+
+}
+```
