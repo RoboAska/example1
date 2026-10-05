@@ -341,8 +341,8 @@ const materials = [
     },
     {
       code: "KSSPH0400000092",
-      name:"",
-      uom:"",
+      name:"STEEL POLE, 25 FT. - 2.5MM THICK",
+      uom:"PC",
       link:"https://hjpnnsj3wg4t.jp.larksuite.com/drive/folder/BcZIf1Lv4lnNW2dQauplvsfNgxf"
     },
     {
@@ -376,10 +376,7 @@ const materials = [
       link:"",
     },
 
-
-
 ];
-
 
 /* =========================================================
    PAGE ELEMENTS
